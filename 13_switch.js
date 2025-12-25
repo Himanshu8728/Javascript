@@ -14,5 +14,6 @@ switch (month) {
         break;
 
     default:
+        console.log("Default break");
         break;
 }
