@@ -32,3 +32,8 @@ while(j<=myArray.length){
 //     console.log(`the value of i is ${i}`)
 //     i=i+3;
 // }
+ 
+const arr =[1, 2, 3, 4, 5, 6, 7]
+for(const num of arr){
+    console.log(num)
+}
