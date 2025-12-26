@@ -11,7 +11,7 @@
 const myArray = ['flash', 'superman', 'captain america', 'ironman'];
 let j = 0;
 while(j<=myArray.length){
-    console.log(`SuperHero is ${myArray[j]}`)
+    //console.log(`SuperHero is ${myArray[j]}`)
     j++;
 }
 
@@ -35,5 +35,42 @@ while(j<=myArray.length){
  
 const arr =[1, 2, 3, 4, 5, 6, 7]
 for(const num of arr){
-    console.log(num)
+    //console.log(num)
 }
+
+
+const name = "Himanshu Maurya"
+for(const fullName of name){
+    //console.log(`My fullName as word is ${fullName}`)
+}
+
+// const name1 = "Himanshu Maurya"
+// for(const fullName in name1){
+//     console.log(`My fullName as word is ${fullName}`)
+// }
+
+
+const map = new Map()
+map.set('IN', 'India')
+map.set('USA', 'United State of America')
+map.set('Ru', 'Russia')
+
+// console.log(map)
+
+for(const [key, value] of map){
+    //console.log(key, '-', value);
+}
+
+
+const myObject={
+    1 : 'India',
+    2 : 'USA',
+    3 : 'Russia',
+    4 : 'France'
+}
+//console.log(myObject)
+
+for(const key of myObject){
+    console.log(key)
+}
+
