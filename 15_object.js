@@ -27,7 +27,7 @@ for(const key in map){
 const Array1 =[1,2,3,45,4,654545,45]
 
 Array1.forEach(function(items){
-    //console.log(items)   
+    console.log(items)   
 })
 
 Array1.forEach((val)=>{

@@ -55,10 +55,10 @@ map.set('IN', 'India')
 map.set('USA', 'United State of America')
 map.set('Ru', 'Russia')
 
-// console.log(map)
+console.log(map)
 
 for(const [key, value] of map){
-    //console.log(key, '-', value);
+    console.log(key, '-', value);
 }
 
 
@@ -70,7 +70,7 @@ const myObject={
 }
 //console.log(myObject)
 
-for(const key of myObject){
-    console.log(key)
-}
+// for(const key of myObject){
+    // console.log(key)
+// }
 
