@@ -1,0 +1,50 @@
+span{
+    display:block;
+}
+
+.canvas {
+    margin: 100px auto 100px ;
+    text-align: center;
+}
+
+.button{
+    height: 100px;
+    width: 100px;
+    border: solid black 2px;
+    display: inline-block;
+}
+
+#pink{
+    background: pink;
+}
+
+#green{
+    background-color: green;
+}
+
+#teal{
+    background-color: teal;
+}
+
+#brown{
+    background-color: brown;
+}
+
+#heading{
+    text-align: center;
+    color: rgb(96, 60, 197);
+    border: 2px solid rgb(15, 116, 166);
+    margin: 5px;
+    padding: 10px;
+    display: inline-block;
+    background-color: aqua;
+    
+}
+
+#title{
+    text-align: center;
+}
+
+body{
+    margin: 0;
+}
