@@ -1,0 +1,40 @@
+#heading_container{
+    text-align: center;
+}
+#heading{
+    text-align: center;
+    border: 2px solid;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: yellow;
+    color: blue;
+}
+
+#height,
+#weight {
+  width: 150px;
+  height: 25px;
+  margin-top: 30px;
+  font: bold;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    border: 2px solid orange;
+    margin-top: 25px;
+    border-radius: 50px;
+    margin-left: 100px;
+}
+body{
+    background-color: teal;
+    text-align: center;
+}
+
+#results{
+    margin-top: 10px;
+    margin-left: 110px;
+    font-size: 30px;
+
+}
