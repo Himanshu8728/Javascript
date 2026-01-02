@@ -1,0 +1,14 @@
+#heading{
+    text-align: center;
+    color: blueviolet;
+}
+
+body{
+    text-align: center;
+}
+
+#start,#stop{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: limegreen;
+}
