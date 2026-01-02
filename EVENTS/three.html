@@ -6,6 +6,31 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Hello , i'm Heisenberg</h1>
+    <button id="start">START</button>
+    <button id="stop">STOP</button>
     
 </body>
+<script>
+    let bolBhai;
+    const sayDate=()=>{
+        console.log("Himanshu", Date.now())
+    }
+
+    document.querySelector('#start').addEventListener('click',()=>{
+        bolBhai= setInterval(()=>{
+            sayDate();
+        }, 2000)
+    })
+
+    const stop = document.querySelector('#stop').addEventListener('click',()=>{
+        clearInterval(bolBhai)
+        console.log(("stopped"));
+        
+    })
+    
+
+
+
+</script>
 </html>
