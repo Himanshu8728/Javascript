@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    margin: 200px;
+    background-color: #212121;
+    color: white;
+}
+
+.key{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.color {
+        color: aliceblue;
+        display: flex;
+        flex-direction: row;
+      }
+
+table,
+      th,
+      td {
+        border: 1px solid #e7e7e7;
+      }
