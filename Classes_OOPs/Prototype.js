@@ -14,9 +14,24 @@ let specs={
     }
 }
 
+let power ={
+
+}
+
 Object.prototype.himanshu=function(){
     console.log(`yess ! im present in all object`);
 }
 
-specs.himanshu()
+
+// power.himanshu()
 // console.log(typeof(himanshu))
+
+//specs.himanshu()
+
+Array.prototype.heyHims=function(){
+    console.log(`Hims says Hello`)
+}
+
+
+//power.heyHims()
+
