@@ -32,6 +32,8 @@ Array.prototype.heyHims=function(){
     console.log(`Hims says Hello`)
 }
 
-
 //power.heyHims()
+
+const name1 = "hims"
+console.log("name")
 
