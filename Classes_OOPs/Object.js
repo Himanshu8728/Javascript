@@ -32,3 +32,9 @@ user1.printMe()
 
 user2.increment()
 user2.printMe()
+
+function itsMe(a, b , c){
+    return a*b+c*(c*a-b)
+};
+
+console.log(itsMe(2, 5, 9))
