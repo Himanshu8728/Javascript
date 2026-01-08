@@ -5,6 +5,7 @@ const num = -1
 //     console.log("Number is odd");
     
 // }
+// console.log()
 
 if(num>0){
     console.log("Positive")

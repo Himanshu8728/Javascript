@@ -17,3 +17,4 @@ switch (month) {
         console.log("Default break");
         break;
 }
+// console.log()

@@ -50,3 +50,4 @@ function getSecondValue(value){
     console.log(value[1])
 }
 getSecondValue(price1)
+// console.log()

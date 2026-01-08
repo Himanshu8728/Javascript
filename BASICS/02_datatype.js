@@ -36,3 +36,4 @@ const MyFunction = function(){
 
 MyFunction();
 
+// console.log()

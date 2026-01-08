@@ -11,7 +11,7 @@ array.pop()
 // console.log(typeof newArray);
 // console.log(typeof array);
 
-//
+//// console.log()
 const arr = array.slice(1,3)
 const arr1 = array.splice(1,3)
 //console.log(arr)

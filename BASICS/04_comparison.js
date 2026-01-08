@@ -9,3 +9,4 @@ console.log("2"===2) //strict check using === "it check both datatype and value"
 
 
 
+// console.log()

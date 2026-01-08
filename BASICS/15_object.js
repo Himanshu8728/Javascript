@@ -33,3 +33,4 @@ Array1.forEach(function(items){
 Array1.forEach((val)=>{
     console.log(val)
 })
+// console.log()

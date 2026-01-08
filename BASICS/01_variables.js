@@ -9,3 +9,4 @@ accountCIty = "mumbai"
 accountPassword="himanshu870@"
 
 console.table([account_id, accountEmail, accountPassword, accountCIty])
+// console.log()

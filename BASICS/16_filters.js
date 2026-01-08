@@ -9,3 +9,4 @@ Example.forEach((nums)=>{
     }
 })
 console.log(emptyArray)
+// console.log()

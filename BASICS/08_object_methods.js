@@ -15,3 +15,4 @@ const user= Object.assign(obj1, extra)
 //console.log(user)
 const obj3= {...obj1, ...extra}
 console.log(obj1.hasOwnProperty("name"))
+// console.log()
