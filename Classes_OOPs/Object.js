@@ -27,14 +27,45 @@ CreateUser.prototype.printMe=function(){
 const user1 = new CreateUser("hims", 999)
 const user2 = new CreateUser("OnePiece", 1054)
 
-user1.increment()
-user1.printMe()
+// user1.increment()
+// user1.printMe()
 
-user2.increment()
-user2.printMe()
+// user2.increment()
+// user2.printMe()
 
-function itsMe(a, b , c){
-    return a*b+c*(c*a-b)
-};
+// function itsMe(a, b , c){
+//     return a*b+c*(c*a-b)
+// };
 
-console.log(itsMe(2, 5, 9))
+// console.log(itsMe(2, 5, 9))
+
+const User={
+    name:'himanshu',
+    isLoggedin:true,
+    email:'himanshum2k3@gmail.com'
+}
+
+const Student={
+    makeVideos:true
+}
+
+const StudentSupport={
+    available:false
+}
+
+const TAsupport={
+    makeAssignment: 'jS assignment',
+    fullTime:true,
+    __proto__:StudentSupport
+}
+
+Student.__proto__=User
+
+
+const myUserName="himanshu8728     "
+String.prototype.trueLength=function(){
+    console.log(`${this}`)
+    console.log(`true length is ${this.trim().length}`);
+}
+
+myUserName.trueLength()
