@@ -13,7 +13,7 @@ function User(username, loginCount, isLoggedIn){
 
     return this
 }
-//use new to create a new isntance so that the second user cannot overwrite the details of userone
+//use new to create a new isntance so that the second user cannot overwrite the details of Userone
 const userOne = new User("hims", 12, true)
 const userTwo = new User("sachin", 10, false)
 
